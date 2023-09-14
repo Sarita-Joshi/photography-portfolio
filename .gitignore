@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+/scripts/client_secrets.json
+
+.env
+
 # testing
 /coverage
 
