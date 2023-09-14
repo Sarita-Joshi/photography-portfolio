@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Contact from "../Contact/Contact";
 import Landing from "../Landing/Landing";
 import styles from "./Navigation.module.scss";
-import data from "../../data/Info";
+import data from "../../data/info2";
 import Section from "../Section/Section";
 
 const Navigation = () => {
@@ -27,7 +27,7 @@ const Navigation = () => {
       {isMobile ? (
         <nav>
           <h2>
-            <Link to="/">Tea Milas</Link>
+            <Link to="/">Kunal Ghogare</Link>
           </h2>
           {!isOpen && (
             <button
@@ -57,7 +57,7 @@ const Navigation = () => {
       ) : (
         <nav>
           <h2>
-            <Link to="/">Tea Milas</Link>
+            <Link to="/">Kunal Ghogare</Link>
           </h2>
           <ul>
             <li>

@@ -21,7 +21,7 @@ const Contact = () => {
         </p>
 
         <form
-          action="mailto:teamilas@gmail.com"
+          action="mailto:joshisarita1311@gmail.com"
           method="post"
           enctype="text/plain"
         >
